@@ -38,13 +38,13 @@
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  top: -14px;
-  left: -5px;
+  top: -18px;
+  left: -1px;
   width: 32px;
   height: 24px;
 }
 
 .topic-list tr:nth-of-type(3n) .posters > a.latest::after {
   transform: scaleX(-1);
-  left: 2px;
+  left: -5px;
 }

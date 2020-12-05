@@ -9,10 +9,22 @@
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  top: -42%;
+  top: -68%;
   left: -27%;
   width: 130%;
   height: 100%;
+}
+
+.topic-post:nth-of-type(2n) .topic-avatar > a::after {
+  transform: rotate(-5deg) translateX(-4px);
+}
+
+.topic-post:nth-of-type(5n) .topic-avatar > a::after {
+  transform: rotate(5deg) translateX(4px);
+}
+
+.topic-post:nth-of-type(3n) .topic-avatar > a::after {
+  transform: scaleX(-1) rotate(5deg) translateX(-8px);
 }
 
 .topic-list .posters > a.latest {

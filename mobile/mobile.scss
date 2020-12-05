@@ -67,6 +67,6 @@
   height: 80%;
 }
 
-.pull-left:nth-of-type(2n) .topic-avatar > a::after {
+.pull-left:nth-of-type(2n) .avatar > a::after {
   transform: rotate(-5deg) translateX(-2px);
 }

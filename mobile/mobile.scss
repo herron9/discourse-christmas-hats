@@ -9,22 +9,22 @@
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  top: -68%;
-  left: -27%;
-  width: 130%;
+  top: -75%;
+  left: -10%;
+  width: 150%;
   height: 100%;
 }
 
 .topic-post:nth-of-type(2n) .topic-avatar > a::after {
-  transform: rotate(-5deg) translateX(-4px);
+  transform: rotate(-5deg) translateX(-2px);
 }
 
 .topic-post:nth-of-type(5n) .topic-avatar > a::after {
-  transform: rotate(5deg) translateX(4px);
+  transform: rotate(5deg) translateX(2px);
 }
 
 .topic-post:nth-of-type(3n) .topic-avatar > a::after {
-  transform: scaleX(-1) rotate(5deg) translateX(-8px);
+  transform: scaleX(-1) rotate(5deg) translateX(12px);
 }
 
 .topic-list .posters > a.latest {
@@ -47,4 +47,22 @@
 .topic-list tr:nth-of-type(3n) .posters > a.latest::after {
   transform: scaleX(-1);
   left: 2px;
+}
+
+/* main page */
+.pull-left {
+  position: relative;
+}
+
+.pull-left > a::after {
+  content: "";
+  background-image: url($hat);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -75%;
+  left: -10%;
+  width: 150%;
+  height: 100%;
 }

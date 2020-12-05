@@ -62,7 +62,11 @@
   background-repeat: no-repeat;
   position: absolute;
   top: -55%;
-  left: -10%;
+  left: 10%;
   width: 80%;
   height: 80%;
+}
+
+.topic-post:nth-of-type(2n) .pull-left > a::after {
+  transform: rotate(-5deg) translateX(-2px);
 }
